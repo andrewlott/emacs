@@ -1,4 +1,16 @@
-((("array" .
+((("color-theme-subtle-hacker" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("color-theme-renegade" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("color-theme-comidia" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("color-theme-pok-wog" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("color-theme-oswald" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("color-theme-shaman" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("array" .
    [1 0 0 0 0])
   ("true_value" .
    [0 0 0 0 0 1 0 0 0 0])
@@ -189,4 +201,20 @@
   ("END" .
    [1 0 0])
   ("scalene" .
-   [1 0 0 0 0 0 0])))
+   [1 0 0 0 0 0 0])
+  ("color-theme-billw" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0])
+  ("color-theme-hober" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("color-theme" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("color-theme-arjen" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("color-theme-taylor" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("color-theme-euphoria" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("color-theme-jsc-dark" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("color-theme-retro-orange" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])))

@@ -27,6 +27,9 @@
 (ac-config-default)
 (require 'linum)
 (global-linum-mode 1)
+(require 'color-theme)
+(color-theme-initialize)
+;;(color-theme-billw)
 
 ;;Misc.
 (setq inhibit-startup-message t)
