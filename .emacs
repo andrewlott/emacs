@@ -4,6 +4,7 @@
 ;;Paths
 (add-to-list 'load-path "~/elisp")
 (add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path "~/elisp/emacs-color-theme-solarized")
 
 ;;fixing missing ruby-mode
 (add-to-list 'load-path "~/.emacs.d/ruby-mode/")
@@ -30,6 +31,16 @@
 (require 'color-theme)
 (color-theme-initialize)
 ;;(color-theme-billw)
+
+(require 'color-theme-solarized)
+;;(color-theme-solarized-light)
+
+;;Set day/night themes
+(setq calendar-location-name "New York, NY")
+(setq calendar-latitude 40.71)
+(setq calendar-longitude -74.01)
+(require 'theme-changer)
+;;(change-theme 'color-theme-solarized-light 'color-theme-solarized-dark)
 
 ;;Misc.
 (setq inhibit-startup-message t)

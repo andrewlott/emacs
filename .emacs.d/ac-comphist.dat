@@ -1,4 +1,6 @@
-((("color-theme-subtle-hacker" .
+((("color-theme-solarized-light" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0])
+  ("color-theme-subtle-hacker" .
    [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
   ("color-theme-renegade" .
    [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
@@ -147,15 +149,15 @@
   ("first" .
    [3 0 1 0 0])
   ("add-to-list" .
-   [0 0 0 0 0 0 0 0 0 0 1])
+   [0 0 0 0 0 0 0 0 0 0 2])
   ("load-path" .
-   [0 0 0 0 0 0 0 0 1])
+   [0 0 0 0 0 0 0 0 2])
   ("load-library" .
    [0 0 0 0 0 0 0 1 0 0 0 0])
   ("Hash" .
    [1 0 0 0])
   ("require" .
-   [0 0 0 1 0 0 0])
+   [0 0 0 2 0 0 1])
   ("package" .
    [0 0 0 0 1 0 0])
   ("AboutRegularExpressions" .
@@ -207,7 +209,7 @@
   ("color-theme-hober" .
    [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
   ("color-theme" .
-   [1 0 0 0 0 0 0 0 0 0 0])
+   [1 0 0 1 0 0 0 0 0 0 0])
   ("color-theme-arjen" .
    [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
   ("color-theme-taylor" .
@@ -217,4 +219,16 @@
   ("color-theme-jsc-dark" .
    [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
   ("color-theme-retro-orange" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])))
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("color-theme-solarized-dark" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1])
+  ("calendar-latitude" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setq" .
+   [1 0 0 0])
+  ("calendar-longitude" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("theme-changer" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("Colorizes" .
+   [3 0 0 0 0 0 0 0 0])))
