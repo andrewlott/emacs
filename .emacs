@@ -11,12 +11,21 @@
 (autoload 'ruby-mode "ruby-mode" "Major mode for ruby files" t)
 (add-to-list 'auto-mode-alist '("\\.rb$" . ruby-mode))
 (add-to-list 'interpreter-mode-alist '("ruby" . ruby-mode)) 
+
 (add-to-list 'load-path "~/.emacs.d/matlab-emacs/")
 (load-library "matlab-load")
+
+;;Coffeescript
+(add-to-list 'load-path "~/.emacs.d/coffee-mode")
+(require 'coffee-mode)
 
 ;;Markdown mode
 (autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
+
+;;JavaScript mode
+(add-to-list 'auto-mode-alist '("\\.js\\'" . javascript-mode))
+(autoload 'javascript-mode "javascript" nil t)
 
 ;;elisp .el files
 (require 'dropdown-list)
