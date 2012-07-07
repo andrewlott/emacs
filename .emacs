@@ -32,7 +32,7 @@
 (color-theme-initialize)
 ;;(color-theme-billw)
 
-(require 'color-theme-solarized)
+;;(require 'color-theme-solarized)
 ;;(color-theme-solarized-light)
 
 ;;Set day/night themes
